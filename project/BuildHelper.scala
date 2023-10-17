@@ -5,7 +5,7 @@ object BuildHelper {
   val scala3 = "3.3.1"
 
   def nameSettings: List[Setting[String]] = List(
-    name             := "scala3-template",
+    name             := "scala-ocr-poc",
     organization     := "com.kevchuang",
     organizationName := "kevchuang"
   )
