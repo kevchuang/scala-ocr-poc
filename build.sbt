@@ -5,6 +5,7 @@ lazy val root = (project in file("."))
   .settings(standardSettings)
   .settings(
     libraryDependencies ++=
-      Dependencies.tika ++
+      Dependencies.iron ++
+        Dependencies.tika ++
         Dependencies.zio
   )
